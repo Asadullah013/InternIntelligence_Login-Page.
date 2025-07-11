@@ -1,0 +1,157 @@
+    body{
+             font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+             display: flex;
+            align-items: center;
+            justify-content: center;
+             height: 100vh;
+             margin: 0;
+
+        }
+        .container{
+            background: #fff;
+            padding: 30px 40px;
+             border-radius: 12px;
+             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+             width: 100%;
+             max-width: 400px;
+            text-align: center;
+            align-content: center;
+            min-height: 420px;
+  .logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+            
+        }
+        h1{
+            margin-bottom: 20px;
+            color: #333;
+        }
+        input{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #084298;
+}
+p {
+  margin-top: 20px;
+  color: #555;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.my-group {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.forgot-link {
+text-decoration: none;
+color: #0d6efd;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+.remember-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9em;
+    color: #333;
+  white-space: nowrap;
+}
+.error-msg {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+.dashboard-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+}
+.user-details p {
+  margin: 10px 0;
+}
+
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMove 0.6s ease forwards;
+}
+
+@keyframes fadeInMove {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dashboard-container {
+  
+  width: 90%;
+  margin: 80px auto;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeInMove 0.6s ease forwards;
+}
+
+.user-details p {
+  margin: 12px 0;
+  font-size: 1.1em;
+  color: #444;
+}
+
+button#logoutBtn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1em;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#logoutBtn:hover {
+  background-color: #084298;
+}
+
